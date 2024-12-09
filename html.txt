@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>merhaba dünya</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ad soyad</h1>
+        <nav>
+            <ul>
+                <li> <a href="https://akademik.dogus.edu.tr/ali-batuhan-yildiz">ana sayfa</a></li>
+                <li> <a herf="#hakimizda">hakkimizda</a></li>
+                <li> <a herf="#iletisim">iletişim</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+ <section id="anasayfa"></section>  
+    <h2> Hoş geldiniz </h2>
+    <p> Kafemize ait tüm ürünleri burada bulabilirsiniz.</p>
+
+    <footer>
+        <p> &copy:2024 kafe Mustafa Eray Kavalcı </p>
+    </footer>
+</body>
+
+</html> 
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+}
+header {background: #FF5733; 
+        color: #fff;
+        padding: 1em 0;
+        text-align: center;
+}
+nav ul { list-style: none; 
+        padding: 0;
+}
+nav ul li a {display: inline;
+            margin: 0 15 px;
+
+}
